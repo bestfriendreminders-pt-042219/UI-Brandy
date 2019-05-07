@@ -48,6 +48,7 @@ let navii = document.getElementsByTagName('a')[1];
 navii.innerText = siteContent['nav']['nav-item-2'];
 navii.style.color = '#532516';
 
+
 //main content
 
 let bDays = document.getElementsByTagName('h4')[0];
@@ -90,42 +91,68 @@ vContent.innerText = siteContent['main-content']['vacations-content'];
 let CR = document.getElementsByTagName('p')[7];
 CR.innerText = siteContent['footer']['copyright'];
 
-//about pages
-const aboutContent = {
-    "nav": {
-        "nav-item-3": "Home",
-        "nav-item-4": "About",
-        //"img-src": "img/logo.png"
-    },
-    "about-title": {
-        "a1": "Better Friends Reminders",
-        "p2-content": "Meet the Designers!",
-      //"img-src": "img/header-img.png"
-    },
-    "about-content": {
-        "robertUI-h4":"Robert Kulp",
-        "rUI-content": "The most innovative UI on the team",
-        "gregFE-h4":"Anniversaries",
-        "gFE-content": "FRONT END MASTERMIND.",
-      //"middle-img-src": "img/mid-page-accent.jpg",
-        "bFE-h4":"Date Nights",
-        "bFE-content": "LOVES REACT.",
-        "lBE-h4":"Important Appointments",
-        "lBE-content": "The BOSS WOMAN",
-    },
-    "footer": {
-        "copyright" : "Copyright Better Friend Reminders"
-    },
-}
-let aH1 = document.getElementsByTagName('h1')[0];
-aH1.innerText = siteContent['about-title']['a1'];
+// //about pages
+// const aboutContent = {
+//     "nav": {
+//         "nav-item-3": "Home",
+//         "nav-item-4": "About",
+//         //"img-src": "img/logo.png"
+//     },
+//     "about-title": {
+//         "a1": "Better Friends Reminders",
+//         "p2-content": "Meet the Designers!",
+//       //"img-src": "img/header-img.png"
+//     },
+//     "about-main": {
+//         "robertUI-h4":"Robert Kulp",
+//         "rUI-content": "The most innovative UI on the team",
+//         "gregFE-h4":"Anniversaries",
+//         "gFE-content": "FRONT END MASTERMIND.",
+//       //"middle-img-src": "img/mid-page-accent.jpg",
+//         "bFE-h4":"Date Nights",
+//         "bFE-content": "LOVES REACT.",
+//         "lBE-h4":"Important Appointments",
+//         "lBE-content": "The BOSS WOMAN",
+//     },
+//     "footer": {
+//         "copyright" : "Copyright Better Friend Reminders"
+//     },
+// }
 
+// let aH1 = document.getElementsByTagName('h1')[0];
+// aH1.innerText = aboutContent['about-title']['a1'];
 
-//ABOUT JS - nav BAR
-let naviii = document.getElementsByTagName('a')[2];
-naviii.innerText = siteContent['nav']['nav-item-3'];
-naviii.style.color = '#532516';
+// //ABOUT JS - nav BAR
+// let naviii = document.getElementsByTagName('a')[0];
+// naviii.innerText = aboutContent['nav']['nav-item-3'];
+// naviii.style.color = '#532516';
 
-let naviv = document.getElementsByTagName('a')[3];
-naviv.innerText = siteContent['nav']['nav-item-4'];
-naviv.style.color = '#532516';
+// let naviv = document.getElementsByTagName('a')[1];
+// naviv.innerText = aboutContent['nav']['nav-item-4'];
+// naviv.style.color = '#532516';
+
+// //ABOUT CONTENT
+
+// let robUI = document.getElementsByTagName('h4')[0];
+// robUI.innerText = aboutContent['about-main']['robertUI-h4'];
+
+// let robContent = document.getElementsByTagName('p')[0];
+// robContent.innerText = aboutContent['about-main']['rUI-content']
+
+// let gFE = document.getElementsByTagName('h4')[1];
+// gFE.innerText = aboutContent['about-main']['gregFE-h4'];
+
+// let gContent = document.getElementsByTagName('p')[1];
+// gContent.innerText = aboutContent['about-main']['gFE-content'];
+
+// let bFE = document.getElementsByTagName('h4')[2];
+// bFE.innerText = aboutContent['about-main']['bFE-h4'];
+
+// let bContent = document.getElementsByTagName('p')[2];
+// bContent.innerText = aboutContent['about-main']['bFE-content'];
+
+// let leila = document.getElementsByTagName('h4')[3];
+// leila.innerText = aboutContent['about-main']['lBE-h4'];
+
+// let lContent = document.getElementsByTagName('p')[3];
+// lContent.innerText = aboutContent['about-main']['lBE-content'];

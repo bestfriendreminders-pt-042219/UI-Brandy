@@ -73,6 +73,11 @@ header {
     display: flex;
     background-color: #975D41;
 }
+img {
+    max-width: 100%;
+    height: auto;
+	vertical-align: middle;
+}
 
 header nav {
     margin-top: 40px; 
@@ -113,6 +118,23 @@ header .logo {
     padding-top: 20px;
     background-color: #975D41; 
 }
+.about-title{
+    display: flex;
+    margin-top: 72px;
+    justify-content: flex-end;
+    padding-top: 20px;
+    background-color: #975D41;
+}
+.about-title .title-text{
+    font-size: 72px;;
+    text-align: center;
+    letter-spacing: 5px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    margin: 0 82px 0 0;
+}
 
 .title .title-text {
     font-size: 72px;
@@ -124,7 +146,19 @@ header .logo {
     align-items: center;
     margin: 0 82px 0 0;
 }
-.title p{
+.title p {
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    margin: 0 auto;
+    padding-bottom: 30px auto;
+    font-family: 'Bangers', cursive;
+}
+.title-text p {
     font-size: 32px;
     text-align: center;
     letter-spacing: 1px;
@@ -162,6 +196,14 @@ header .logo {
    font-size: 16px;
    line-height: 18px;
 }
+.about-main {
+    border-top: 2px solid black; 
+    border-bottom: 2px solid black;
+    margin: 75px 0 35px 0;
+    padding: 35px 0;
+    font-size: 16px;
+    line-height: 18px;
+}
 
 .main-content .top-content {
     display: flex;
@@ -172,6 +214,26 @@ header .logo {
     margin: 30px auto;
     color: #D4D4D4;
 }
+
+
+.about-main .about-top{
+    display: flex;
+    justify-content: space-around;
+}
+.about-main .text-content p {
+    margin: 30px auto;
+    color: #D4D4D4;
+}
+.about-main .about-bottom{
+    display: flex;
+    justify-content: space-around;
+}
+.about-main .text-content p {
+    margin: 30px auto;
+    color: #D4D4D4;
+}
+
+
 .main-content .middle-content{
     display: flex;
     justify-content: space-around;
