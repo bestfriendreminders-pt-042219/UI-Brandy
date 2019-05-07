@@ -73,6 +73,11 @@ header {
     display: flex;
     background-color: #975D41;
 }
+img {
+    max-width: 100%;
+    height: auto;
+	vertical-align: middle;
+}
 
 header nav {
     margin-top: 40px; 
